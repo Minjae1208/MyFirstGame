@@ -1,0 +1,17 @@
+﻿  IOCPServer.cpp
+e:\unrealproject\min\mygameserver\mygameserver\commonclass.h(102): warning C4251: 'cCharactersInfo::players': class 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'cCharactersInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=int,
+              _Ty=cCharacter
+          ]
+  e:\unrealproject\min\mygameserver\mygameserver\commonclass.h(102): note: 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=int,
+              _Ty=cCharacter
+          ]
+e:\unrealproject\min\mygameserver\mygameserver\iocpserver.cpp(215): warning C4267: '=': 'size_t'에서 'ULONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\unrealproject\min\mygameserver\mygameserver\iocpserver.cpp(242): warning C4267: '=': 'size_t'에서 'ULONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+e:\unrealproject\min\mygameserver\mygameserver\iocpserver.cpp(383): warning C4267: '=': 'size_t'에서 'ULONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  MyGameServer.vcxproj -> E:\UnrealProject\Min\MyGameServer\x64\Debug\MyGameServer.exe

@@ -1,0 +1,64 @@
+﻿  CommonClass.cpp
+c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(103): warning C4251: 'cCharactersInfo::players': class 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'cCharactersInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=int,
+              _Ty=cCharacter
+          ]
+  c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(103): note: 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=int,
+              _Ty=cCharacter
+          ]
+c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.cpp(5): warning C4273: 'cCharacter::cCharacter': dll 링크가 일치하지 않습니다.
+  c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(36): note: '{ctor}'의 이전 정의를 참조하십시오.
+c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.cpp(9): warning C4273: 'cCharacter::~cCharacter': dll 링크가 일치하지 않습니다.
+  c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(37): note: '{dtor}'의 이전 정의를 참조하십시오.
+c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.cpp(13): warning C4273: 'cCharactersInfo::cCharactersInfo': dll 링크가 일치하지 않습니다.
+  c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(100): note: '{ctor}'의 이전 정의를 참조하십시오.
+c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.cpp(17): warning C4273: 'cCharactersInfo::~cCharactersInfo': dll 링크가 일치하지 않습니다.
+  c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(101): note: '{dtor}'의 이전 정의를 참조하십시오.
+c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.cpp(21): warning C4273: 'CommonClass::CommonClass': dll 링크가 일치하지 않습니다.
+  c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(139): note: '{ctor}'의 이전 정의를 참조하십시오.
+c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.cpp(26): warning C4273: 'CommonClass::~CommonClass': dll 링크가 일치하지 않습니다.
+  c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(140): note: '{dtor}'의 이전 정의를 참조하십시오.
+  DBconnection.cpp
+c:\users\차민재\source\repos\mygameserver\mygameserver\dbconnection.cpp(1): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+c:\users\차민재\source\repos\mygameserver\mygameserver\dbconnection.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  IOCPBase.cpp
+c:\users\차민재\source\repos\mygameserver\mygameserver\iocpbase.cpp(1): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+c:\users\차민재\source\repos\mygameserver\mygameserver\iocpbase.cpp(138): warning C4474: 'printf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\차민재\source\repos\mygameserver\mygameserver\iocpbase.cpp(138): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+c:\users\차민재\source\repos\mygameserver\mygameserver\iocpbase.cpp(162): warning C4474: 'printf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\차민재\source\repos\mygameserver\mygameserver\iocpbase.cpp(162): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+  IOCPServer.cpp
+c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(103): warning C4251: 'cCharactersInfo::players': class 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'cCharactersInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=int,
+              _Ty=cCharacter
+          ]
+  c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(103): note: 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=int,
+              _Ty=cCharacter
+          ]
+c:\users\차민재\source\repos\mygameserver\mygameserver\dbconnection.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  stdafx.cpp
+  main.cpp
+c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(103): warning C4251: 'cCharactersInfo::players': class 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>'에서는 class 'cCharactersInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+          with
+          [
+              _Kty=int,
+              _Ty=cCharacter
+          ]
+  c:\users\차민재\source\repos\mygameserver\mygameserver\commonclass.h(103): note: 'std::map<int,cCharacter,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>' 선언을 참조하십시오.
+          with
+          [
+              _Kty=int,
+              _Ty=cCharacter
+          ]
+c:\users\차민재\source\repos\mygameserver\mygameserver\dbconnection.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  코드를 생성하고 있습니다...
