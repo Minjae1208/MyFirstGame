@@ -248,7 +248,6 @@ void IOCPServer::EnrollCharacter(stringstream & RecvStream, stSocketInfo * pSock
 {
 	cCharacter info;
 	RecvStream >> info;
-	cout << info.SessionId << endl;
 	printf_s("[INFO][%d]캐릭터 등록 - X : [%f], Y : [%f], Z : [%f], Yaw : [%f]\n",
 		info.SessionId, info.X, info.Y, info.Z, info.Yaw);
 
