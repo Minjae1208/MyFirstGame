@@ -1,0 +1,9 @@
+
+NProject/.vs
+NProject/Binaries/
+NProject/Intermediate
+NProject/Saved/Config/CrashReportClient
+*.log
+NProject/Saved/Backup
+NProject/Saved
+NProject/NProject.sln
