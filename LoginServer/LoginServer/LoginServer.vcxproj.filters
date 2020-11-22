@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\IOCPServer">
+      <UniqueIdentifier>{e8904cea-6de1-42c2-a693-d96dce9d9453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\IOCPBase">
+      <UniqueIdentifier>{676fed02-3e6a-42ac-985a-b180ad05da85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\IOCPServer">
+      <UniqueIdentifier>{c6b93cde-cfe0-4887-b24c-264265a058dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\IOCPBase">
+      <UniqueIdentifier>{2e29e8fa-c315-46c8-903c-1d7c56b38366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Common">
+      <UniqueIdentifier>{da2dcdcb-e2d6-43da-bea3-4198bb56c076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Common">
+      <UniqueIdentifier>{a095f910-1c99-482a-b594-55e0a3c1d9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\DB">
+      <UniqueIdentifier>{77aa1042-8cd1-4685-87c4-2a4dfee485cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DB">
+      <UniqueIdentifier>{17879fba-ccc1-47b1-9a97-b2ef804dbf6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common.cpp">
+      <Filter>소스 파일\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConnect.cpp">
+      <Filter>소스 파일\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPServer.cpp">
+      <Filter>소스 파일\IOCPServer</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPBase.cpp">
+      <Filter>소스 파일\IOCPBase</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DBconnect.h">
+      <Filter>헤더 파일\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPServer.h">
+      <Filter>헤더 파일\IOCPServer</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPBase.h">
+      <Filter>헤더 파일\IOCPBase</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
